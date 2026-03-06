@@ -21,4 +21,8 @@ public class CustomList {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
+
+    public void removeCity(City city) {
+        cities.remove(city);
+    }
 }
